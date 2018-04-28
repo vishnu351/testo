@@ -1,0 +1,122 @@
+@charset "utf-8";
+@import url(../../theme/css/site-change.css);
+body {
+	background:#000;
+	color:#fff;
+}
+body a, .footer-bottom-wrapper a {
+	color:#ffff00;
+}
+.top-wrapper {
+	background:#000;
+}
+
+.common-wrapper{background:#000;}
+ .toggle-nav-bar .menu-icon {
+background:url(../images/toggle-bar-light.png) no-repeat;
+}
+
+.nav-wrapper {
+	background:#000;
+}
+.logo {
+	background:url(../images/emblem-light.png) no-repeat;
+}
+.top-left a span {
+	background:url(../images/ico-link-light.png) no-repeat;
+}
+.logo a {
+	color:#fff;
+}
+.footer-top-wrapper {
+	background:#000;
+	border-top:1px solid #fff;
+}
+.footer-bottom-wrapper {
+	background-color:#000;
+	color:#fff;
+}
+.nav-wrapper ul li {
+	border-left:1px solid #3b3b3b;
+}
+.nav-wrapper ul ul li {
+	border-bottom:1px solid #666;
+}
+.nav-wrapper ul ul {
+	background:#3b3b3b;
+}
+.nav-wrapper ul li:hover a, .nav-wrapper ul li.hover a, .nav-wrapper ul li.active a {
+	background:#3b3b3b;
+}
+.nav-wrapper ul ul li.active a, .nav-wrapper ul ul li.hover a, .nav-wrapper ul ul li a:hover {
+	background:#1a1a1a;
+}
+.bttn {
+	background:#000;
+	border:1px solid #fff;
+	padding:4px 9px;
+}
+.bttn:hover {
+	background:#000;
+	color:#fff;
+}
+.inp-search {
+	background:#000;
+	border:1px solid #fff;
+	color:#fff;
+}
+.bttn-search {
+	background-color:#303030;
+}
+.lan select, .ft-lan select {
+	background:#000;
+	color:#fff;
+	border:1px solid #fff;
+}
+
+.common-right ul li a{opacity:1 !important; }
+.common-right ul li.ico-skip a{background:url(../images/ico-skip-y.png) no-repeat;}
+.common-right ul li.ico-accessibility a{background:url(../images/ico-accessibility-y.png) no-repeat;}
+.common-right ul li.ico-social a{background:url(../images/ico-social-y.png) no-repeat;}
+.common-right ul li.ico-login a{background:url(../images/ico-login-y.png) no-repeat;}
+.common-right ul li.ico-site-search a{background:url(../images/ico-site-search-y.png) no-repeat;}
+.common-right ul li.ico-sitemap a{background:url(../images/ico-sitemap-y.png) no-repeat;}
+
+
+
+ @media all and (max-width : 940px) {
+#nav li{background:#3B3B3B;}
+.nav-wrapper ul li.open ul li a {background:#454545 !important;}
+.nav-wrapper ul li.open ul li:hover a {
+background:#353535 !important;
+}
+
+ .nav-wrapper ul li:hover a {
+background:#212121 !important;
+}
+.nav-wrapper ul li.open ul li a{color:#ffff00 !important;}
+}
+
+.common-right ul li.ico-accessibility ul li a {
+  background:#000;
+  color: #fff;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 9px;
+  width: 22px;
+  text-align:center;
+}
+.common-right ul li.ico-accessibility ul li a.light{background:#eeeeee; color:#000;}
+
+.sw-logo{background:#fff; display:inline-block;}
+
+
+a:focus{outline:1px dotted #fff !important;}
+.common-left ul li.gov-india a:hover
+{color:#ffff00 !important;}
+.common-left ul li.gov-india a:focus
+{color:#ffff00 !important;}
+.common-left a{display:inline-block;}
+.common-left a:focus{color:#ffff00 !important;}
+

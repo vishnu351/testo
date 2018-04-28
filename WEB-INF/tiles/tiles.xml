@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+<definition name="homelayoutindex" template="/account/index.jsp">
+	</definition>
+	<!-- 
+	<definition name="layout.definition" template="/layout/masterpages/masterpage.jsp">
+		<put-attribute name="header" value="/layout/masterpages/header.jsp" />
+		<put-attribute name="footer" value="/layout/masterpages/footer.jsp" />
+		<put-attribute name="navigation" value="/layout/masterpages/navigation.jsp" />	
+			
+	</definition> -->
+	
+	
+	<!-- <definition name="homepage" extends="layout.definition">
+			<put-attribute name="mainbody" value="/layout/childpages/mainbody.jsp" />
+			<put-attribute name="slider" value="/layout/masterpages/slider.jsp" />		
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition> 
+		
+	
+	<definition name="account.definition" template="/account/masterpages/masterpage.jsp">
+		<put-attribute name="header" value="/account/masterpages/header.jsp" />
+		<put-attribute name="footer" value="/account/masterpages/footer.jsp" />	
+	</definition>
+	
+	
+	<definition name="accounthomepage" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/childpages/mainbody.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountprofile" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/childpages/profilepage.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountpersonal" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/application/personalpage.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountconfirmadmission" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/application/admissionconfirm.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountapplication" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/application/newregistrationpage.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountaddcollege" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/application/entrypages/addcollege.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	<definition name="accountaddsubject" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/application/entrypages/addhonours.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountuploadexcel" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/application/uploadexcel.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountpassword" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/childpages//changepassword.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition>
+	
+	<definition name="accountdashboard" extends="account.definition">
+			<put-attribute name="sidenavigation" value="/account/masterpages/navigation.jsp" />
+			<put-attribute name="mainbody" value="/account/childpages//profilepage.jsp" />
+			<put-attribute name="title" value="Department of Higher,Technical Education and Skill Development,Government of Jharkhand,Ranchi" />
+	</definition> -->
+
+	<!-- <definition name="invalid-request" template="/cmfy/cmfy/master_page.jsp">
+	</definition>
+	<definition name="403" template="/cmfy/cmfy/master_page.jsp">
+	</definition>
+    <definition name="500" template="/cmfy/cmfy/master_page.jsp">
+	</definition>
+    <definition name="error" template="/cmfy/cmfy/master_page.jsp">
+	</definition>
+    <definition name="404" template="/cmfy/cmfy/master_page.jsp">
+	</definition> -->
+	
+	
+</tiles-definitions>

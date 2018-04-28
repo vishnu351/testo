@@ -1,0 +1,52 @@
+
+
+@media all and (max-width : 940px) {
+#nav li{background:#3B3B3B;}
+.nav-wrapper ul li.open ul li a {background:#454545 !important; color:#ffff00 !important;}
+.nav-wrapper ul li.open ul li:hover a {
+background:#none !important;
+color:#ffff00 !important;
+}
+
+ .nav-wrapper ul li a {
+color:#ffff00 !important;
+}
+
+ .nav-wrapper ul li:hover a {
+background:#none !important;
+color:#ffff00 !important;
+}
+.nav-wrapper ul li.open ul li a{color:#ffff00 !important;}
+}
+
+.nav-wrapper ul li a, .body-container ul.list li a, .scheme-tab a.read-more, .quick-link-text, .whats-new h3 a, .om-orders a, .related-photos ul.list li a, .view, .external-links h3 a, .footer-top-wrapper ul li a{color:#ffff00 !important;}
+.welcome-text, .minister, .bg-yellow, .bg-green, .bg-red, .quick-links-section, .quick-link, .boxed-text, .om-orders{background:none; border:1px solid #333; color:#FFF;}
+.welcome-text p, .whats-new h3, .minister .min-info h4, .minister .min-info h5, .inner-content h2, .inner-content h3{color:#FFF;}
+.home-btm-slider{background:#000; border-top:1px solid #333; border-bottom:1px solid #333;}
+.color-border {
+  background:#fff;
+  
+}
+.quick-links-section{padding-top:10px;}
+.whats-new h3, .external-links h3, .view, .related-links .view{background:none;}
+.external-links h3{padding:0px;}
+.quick-link-icon, .mid-panel-left ul li a, .my-lpg, .my-lpg .lpg-rates, .links-bg-wrapper{background-color:#000;}
+.quick-link-icon, .resp-tabs-container, .mid-panel-left, .mid-panel-right, .my-lpg-heading, .my-lpg, .my-lpg .lpg-rates, .video-gallery{border:1px solid #333 !important;}
+.resp-tabs-container, .my-lpg-heading, .video-gallery, .footer-shiblinks{background:#000;}
+.resp-tabs-list li.resp-tab-active{background:none !important; border-top:1px solid #333 !important; border-right: 1px solid #333 !important; border-left:1px solid #333 !important; color:#FFF !important;}
+.resp-tabs-list li.resp-tab-active a, .breadcam li{color:#FFF !important;}
+.resp-tabs-list li {
+  background: none !important;
+  color: #ffff00;
+}
+.resp-tabs-list li a{color: #ffff00; z-index:}
+.resp-tabs-container ul.list li, .my-lpg .lpg-rates, .video-gallery h3, .links-box h3, .links-box p, .inner-content ol.number-list li{color:#FFF;}
+.resp-tab-content a.read-more, .minister .min-info ul li a, .my-lpg, .link-box .icon-text, .video-gallery ul.list li a, .links-box ul li a, .links-box p a, .breadcam li a, .links-box h3 a{color:#ffff00 !important;}
+.mid-panel-right {
+  background: #000 url("../images/pahel.png") no-repeat scroll 23px center;
+}
+.links-bg-wrapper, .footer-shiblinks{border-top:1px solid #333;}
+.link-box .icon {
+ 
+  border: 2px solid #ffff00;
+}
